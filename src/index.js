@@ -7,7 +7,7 @@ import registerServiceWorker from './registerServiceWorker';
 import ExplainBindingsComponent from './ExplainBindingsComponent';
 
 
-ReactDOM.render(<ExplainBindingsComponent />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 if (module.hot) {
     module.hot.accept();
     }
